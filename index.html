@@ -1,0 +1,32 @@
+<DOCTYPE html>
+    <html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edytor</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="content">
+            <div id="textbox" contenteditable="true"></div>
+            <div id="buttons">
+                <ul id="chooseWisely">
+                    <li><button class="option" data-command='bold' type="button"><i class="fas fa-bold"></i></button></li>
+                    <li><button class="option" data-command='italic' type="button"><i class="fas fa-italic"></i></button></li>
+                    <li><button class="option" data-command='insertUnorderedList' type="button"><i class="fas fa-list-ul"></i></button></li>
+                    <li><button class="option" data-command='insertOrderedList' type="button"><i class="fas fa-list-ol"></i></button></li>
+                </ul>
+            </div>
+            <div id="save">
+                <button onclick="toJson(textbox)">Save</button>
+            </div>
+        </div>
+        <script src="edytor.js"></script>
+        <script src="https://kit.fontawesome.com/40bbaed927.js" crossorigin="anonymous"></script>
+    </body>
+
+    </html>

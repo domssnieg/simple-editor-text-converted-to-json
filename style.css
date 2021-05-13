@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    font-size: 1em;
+    color:rgb(27, 24, 49);
+}
+
+#content{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 7%;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-box-shadow: 1px 3px 10px 4px rgba(160,160,160,0.52); 
+    box-shadow: 1px 3px 10px 4px rgba(160,160,160,0.52);
+    padding: 2em;
+}
+
+#textbox{
+    border: rgb(27, 24, 49) solid 2px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    height: 10em;
+    text-align: justify;
+    padding: 2em;
+    overflow: scroll;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+    background-color: white;
+}
+
+#buttons{
+    text-align: left;
+    margin-left: 5em;
+}
+
+#chooseWisely{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding:0;
+    margin:0;
+    margin-bottom: 0.5em;
+    
+}
+
+li {
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+}
+#save{
+    text-align: left;
+    margin-left: 5em;
+}
+
+button{
+    color:rgb(27, 24, 49);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    background-color: white;
+    border:rgb(27, 24, 49) 2px solid;
+    border-radius: 10px;
+}
